@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <h1>Hello World</h1>
+
+    <h1>Teste de formulário</h1>
+
+    <form action="formularios01.php" method="get">
+
+        Nome:<input type="text" name="nome" id="inome" required placeholder="Digite seu nome"> <br><br>
+        Idade: <input type="number" name="idade" id="iidade" required maxlength="2" placeholder="Digite sua idade"> <br><br>
+        Sexo: Mascilino <input type="radio" name="sexo" id="imasculino">  Feminino <input type="radio" name="sexo" id="ifeminino"> <br><br>
+
+        Região: 
+        <select name="regiao" id="iregiao">
+            <option value="isp">Norte</option>
+            <option value="iminas">Centro-Oeste</option>
+            <option value="inordeste">Nordeste</option>
+            <option value="isudeste">Sudeste</option>
+        </select>
+        <h2>Esportes favorito:</h2>
+
+        Futebol <input type="checkbox" name="futebol" id="ifutebol"> <br>
+        Basquete <input type="checkbox" name="basquete" id="ibasquete"> <br>
+        Vôlei <input type="checkbox" name="volei" id="ivolei"> <br>
+        Tênis <input type="checkbox" name="tenis" id="itenis"> <br>
+        Natação <input type="checkbox" name="nataçao" id="inataçao"> <br><br>
+
+        Nenhum <input type="checkbox" name="nenhum" id="inenhum"> <br><br>
+
+        Comente sobre o formulario: <br>
+
+        <textarea name="coment" id="icoment" cols="30" rows="8" required placeholder="Digite seu comentário"></textarea>
+
+
+        <input type="submit" name="enviar" id="ienviar">
+
+
+    </form>
+    
+</body>
+</html>
